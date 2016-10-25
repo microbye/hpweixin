@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document by jacy use in weisite */
+.container{ background:none}
+/* 详情页 */
+.detail { margin:10px; padding:10px; background:#fff; border:1px solid #ddd; box-shadow:0 1px 1px #ddd; border-radius:10px;}
+
+
+.opera{
+	width: 900px;
+	margin: 10px auto;
+	text-align:left;
+}
+
+.left{ 
+	position:absolute;
+	top:0; left:20px;
+	width:40%; 
+	height:20%;
+	font-size:40px;
+	}
+	
+.right{
+	margin-left:470px; 
+	height:20%; 
+	font-size:35px;} 
+#btn
+{
+	width: 90px;
+	height: 36px;
+	line-height:36px;
+	background-color:#14A5EB;
+	color: #fff;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	cursor: pointer;
+	display:block;
+	text-align:center;
+}
+#btn i{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.zan{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+.comment-filed{
+	width:100%;
+	margin:0 auto;
+	padding:5px 0; 
+	font-size:16px;
+}
+
+.detail.comment-num{
+	text-align: right;	
+	font-size:14px;
+}
+.div-txt-submit{
+	text-align:right;
+	margin-top:8px;
+	
+}
+
+.detail.comment-submit{
+	background-color:#63B8FF;
+	margin-top:15px;
+	text-decoration:none;
+	color:#fff;
+	padding:5px;
+	font-size:14px;
+}
+
+.detail.txt-commit{
+	border:1px solid #ddd;
+	width:100%;
+	height: 60px; 
+	padding: 10px;
+}
+
+.detail.txt-reply{
+	width: 100%; 
+	height: 60px;
+}
+
+
+
+.detail.comment-filed-list{
+	margin-top:20px;
+	width:100%;
+	
+}
+
+.detail.comment-list{
+	margin-top:2px;
+	width:herit;
+	height:50px;
+	border-top:1px solid gray;
+}
+
+.detail.comment-ul{
+	list-style:none;
+	padding-left:0;
+	width:100%;
+}
+
+.detail.head-pic{
+	width:40px;
+	height:40px;	
+}
+
+.detail.cm{
+	position:relative;
+	top:0px;
+	left:40px;
+	top:-40px;
+	width:600px;
+}
+
+.detail.cm-header{
+	padding-left:5px;
+}
+
+.detail.cm-content{
+	padding-left:5px;
+}
+.cm-footer{
+	padding-bottom:15px;
+	text-align:right;
+	border-bottom: 1px dotted #CCC;
+}
+
+.detail.comment-reply{
+	text-decoration:none;
+	color:gray;
+	font-size: 14px;
+}
+
+.detail.children{
+	list-style:none;
+	background-color:#FAFAFA;
+	padding-left:0;
+	margin-left:40px;
+}
+
+.children-cm{
+	position:relative;	
+	left:40px;
+	top:-40px;
+	width:80%;
+}

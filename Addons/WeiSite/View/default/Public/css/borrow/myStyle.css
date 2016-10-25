@@ -1,0 +1,5 @@
+/* CSS Document */
+.controls img{ float:left;}
+#fx_mes{ border-left:none; border-right:none; border-top:none; color:#999999;}
+.fx_promptMes{ width:100%; height:200px;}
+#fx_submit:hover{ background:#8ed9db;}

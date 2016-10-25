@@ -1,0 +1,2146 @@
+[ 2016-10-23T19:57:20+08:00 ] 119.85.96.150 /index.php?s=/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000958s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SELECT `value` FROM `hp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `hp_config` SET `value`='-2627' WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `hp_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM hp_auth_group_access a INNER JOIN hp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-2627' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 0  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hp_attribute` [ RunTime:0.0007s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+
+[ 2016-10-23T19:57:20+08:00 ] 119.85.96.150 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `hp_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM hp_auth_group_access a INNER JOIN hp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-2627' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = -2627 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = -2627  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-10-23T19:57:21+08:00 ] 119.85.96.150 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership` FROM `hp_user` WHERE `login_name` = 'microbye' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hp_action` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hp_action` WHERE `name` = 'admin_login' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hp_action_log` [ RunTime:0.0004s ]
+SQL: INSERT INTO `hp_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('12','1','2002083990','user','1','1477223841','microbye在2016-10-23 19:57登录了后台') [ RunTime:0.0002s ]
+SQL: UPDATE `hp_user` SET `login_count`=`login_count`+1,`last_login_time`='1477223841',`last_login_ip`='2002083990' WHERE `uid` = 1 [ RunTime:0.0002s ]
+
+[ 2016-10-23T19:57:21+08:00 ] 119.85.96.150 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hp_menu` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-10-23T19:57:21+08:00 ] 119.85.96.150 /index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `hp_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-10-23T19:57:23+08:00 ] 119.85.96.150 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: uid /var/www/html/hpweixin/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-10-23T19:57:26+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/lists/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000974s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/lists%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hp_model` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hp_model` WHERE `name` = 'manager_menu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `hp_attribute` WHERE ( model_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `hp_manager_menu` WHERE `uid` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hp_manager_menu` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hp_manager_menu` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`uid` FROM `hp_manager_menu` WHERE `uid` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `extra` !="" AND `model_id` = 3  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-10-23T19:57:28+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/add/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/add%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `model_id` = 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `field_sort` FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: meta_title /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 5 行.
+INFO: [ cascade ] --START--
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `hp_manager_menu` WHERE `menu_type` = 0 AND `uid` = 1 ORDER BY pid asc, sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Plugins\Cascade\CascadeAddon [ RunTime:0.003204s ]
+INFO: [ cascade ] --END-- [ RunTime:0.003238s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 119 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 119 行.
+NOTIC: [8] Undefined variable: data /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 142 行.
+INFO: [ dynamic_select ] --START--
+SQL: SELECT `name`,`title` FROM `hp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012180s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002484s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003712s ]
+INFO: Run Plugins\DynamicSelect\DynamicSelectAddon [ RunTime:0.003565s ]
+INFO: [ dynamic_select ] --END-- [ RunTime:0.003594s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 119 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 119 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 118 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 118 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 110 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /var/www/html/hpweixin/Runtime/Cache/Admin/a7ae445103e0a896dd7df7b0b3157f94.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003139s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-10-23T19:58:03+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/add/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000985s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/add%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `model_id` = 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `field_sort` FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-23T19:58:10+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/add/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/add%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `model_id` = 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `field_sort` FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `hp_manager_menu` (`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`uid`) VALUES ('1','45','借书管理','1','','index.php?s=/addon/BorrowBook/BorrowBook/booklist','_self','0','13','1') [ RunTime:0.0002s ]
+
+[ 2016-10-23T19:58:11+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/lists/model/manager_menu/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/lists%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `hp_attribute` WHERE ( model_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `hp_manager_menu` WHERE `uid` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hp_manager_menu` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`uid` FROM `hp_manager_menu` WHERE `uid` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `extra` !="" AND `model_id` = 3  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-10-23T19:58:32+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/edit/id/367/model/3/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000964s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/edit%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_manager_menu` WHERE `id` = 367 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `model_id` = 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `field_sort` FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: meta_title /var/www/html/hpweixin/Runtime/Cache/Admin/cab7a970285672eb3c6b5ba950055976.php 第 5 行.
+INFO: [ cascade ] --START--
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `hp_manager_menu` WHERE `menu_type` = 0 AND `uid` = 1 ORDER BY pid asc, sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Plugins\Cascade\CascadeAddon [ RunTime:0.003260s ]
+INFO: [ cascade ] --END-- [ RunTime:0.003307s ]
+INFO: [ dynamic_select ] --START--
+SQL: SELECT `name`,`title` FROM `hp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011593s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002425s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003535s ]
+INFO: Run Plugins\DynamicSelect\DynamicSelectAddon [ RunTime:0.003482s ]
+INFO: [ dynamic_select ] --END-- [ RunTime:0.003512s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/hpweixin/Application/Common/Common/function.php 第 1230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002882s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-10-23T19:58:42+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/edit/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/edit%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_manager_menu` WHERE `id` = 367 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `model_id` = 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `field_sort` FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `hp_manager_menu` SET `menu_type`='1',`pid`='45',`title`='借书管理',`url_type`='1',`addon_name`='',`url`='addon/BorrowBook/BorrowBook/booklist',`target`='_self',`is_hide`='0',`sort`='13',`uid`='1' WHERE `id` = 367 [ RunTime:0.0002s ]
+
+[ 2016-10-23T19:58:43+08:00 ] 119.85.96.150 /index.php?s=/Admin/ManagerMenu/lists/model/manager_menu/uid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000971s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2048] Declaration of Admin\Controller\ManagerMenuController::lists() should be compatible with Admin\Controller\AdminController::lists($model, $where = Array, $order = '', $field = true) /var/www/html/hpweixin/Application/Admin/Controller/ManagerMenuController.class.php 第 16 行.
+SQL: SELECT `id`,`token` FROM `hp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /var/www/html/hpweixin/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /var/www/html/hpweixin/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `hp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /var/www/html/hpweixin/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /var/www/html/hpweixin/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `hp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hp_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `hp_attribute` SET `extra`='18:欢迎语
+19:微信用户中心
+56:自定义菜单
+111:帐号配置
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+93:互动游戏
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+165:书籍管理
+' WHERE `name` = 'addon_status' [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`url` FROM `hp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `hp_menu` WHERE ( pid !=0 AND url like '%ManagerMenu/lists%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `hp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`url` FROM `hp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `hp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `hp_attribute` WHERE ( model_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `hp_manager_menu` WHERE `uid` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hp_manager_menu` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`uid` FROM `hp_manager_menu` WHERE `uid` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+SQL: SELECT * FROM `hp_attribute` WHERE `extra` !="" AND `model_id` = 3  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+NOTIC: [8] Undefined index: ids /var/www/html/hpweixin/Application/Common/Common/function.php 第 1262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+

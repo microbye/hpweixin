@@ -1,0 +1,52 @@
+/* CSS Document */
+.controls img{ float:left;}
+#fx_mes{ border-left:none; border-right:none; border-top:none; color:#999999;}
+#container{ background:#ffffff;}
+.fx_promptMes{ width:100%; height:200px;}
+.fx_bookTopMes{ width:auto; height:auto;}
+.fx_topPic{ width:auto; height:110px;}
+.fx_bookMesBox1{ width:100%; height:200px; background:#b8e7e8; z-index:0; position:relative;}
+.fx_bookMesBox2{ width:100%; height:180px; background: #FFFFFF; z-index:1; margin-top:20px; position: absolute;}
+.fx_bookMesBox3{ width:100%; height:auto; background:#FFFFFF; z-index:1;}
+.fx_bookMesBox3 table{ width:100%; margin-left:20px; }
+.fx_bookMesBox3 table tr,td{ width:100%; line-height:30px;}
+.fx_bookMesBox3 table span{ font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#8ed9db; width:100%; display:block; text-align: left;}
+.fx_bookMesBox3 table font{ font-size:16px; font-family:Arial, Helvetica, sans-serif; color: #666666; width:100%; display:block; text-align: left;}
+.fx_bookMesBox4{ width:100%;height:auto; z-index:1; float:left; border-top:solid 1px #8ed9db; padding-top:5px; padding-left:5px;border-bottom:solid 6px #efefef;padding-bottom:8px;}
+.fx_bookMesBox4 span{font-size:16px; font-family:Arial, Helvetica, sans-serif; color:#8ed9db; float: left; margin-left:10px;}
+.fx_bookMesBox4 p{ color:#666666; width:90%; text-align: left; display:block; z-index:1; float:left; margin-top:5px; margin-left:8px; line-height:24px;height:auto; }
+
+
+.fx_coments1{width:100%; height:100%; background: #FFFFFF;}
+.fx_dz1{ width:auto; height:auto;}
+.fx_dz1 span{color:#999999;}
+.fx_dz1 ul{ list-style-type:none; height:30px; float:right; margin-right:20px;}
+
+.fx_dz1 ul li{ list-style:none; float:left; font-size:16px; margin-left:15px; display:block; line-height:44px; color:#CCCCCC;}
+#fx_x1{ margin-top:10px;}
+
+
+.fx_coments2{ width:100%; height:100%; background:#FFFFFF;}
+.fx_greybg{ width:100%;height:10px;background:#dbdbdb;}
+.fx_coments2 ul li{ float:left; height:160px; width:100%;border-bottom:solid 1px  #F6F6F6; margin-top:20px;}
+fx_headPortrait table tr,td{ width:auto; height:auto;}
+.fx_uname{ position:absolute; float:left; margin-top:-60px; margin-left:70px;}
+.fx_uname span{ font-size:14px;height:100%; }
+.fx_time{ position:absolute; float:left; margin-left:70px; margin-top:-32px;}
+.fx_time span{ font-size:12px; color:#CCCCCC;}
+.fx_headPortrait{ padding-left:20px; margin-top}
+.fx_reply{ margin-left:20px; width:100%;}
+.fx_reply p{ width:90%;}
+.fx_reply2{ float:right; margin-right:25px; margin-top:20px;}
+.fx_reply2 span{ font-size:18px; color:#CCCCCC; margin-right:10px;}
+
+.fx_ddd{width:100%;height:10px; background:#e2e2e2; margin-bottom:20px;}
+/*.fx_havingline {
+    clear: both;
+    width: 100%;
+    height: 15px;
+    background: #F0F0F0;
+    position: absolute;
+    margin-top: 160px;
+    display: block;
+}*/

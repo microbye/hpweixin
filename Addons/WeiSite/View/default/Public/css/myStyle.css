@@ -1,0 +1,47 @@
+/* CSS Document */
+*{ margin:0; padding:0; font-size:14px; font-family:"????";  list-style:none;}
+.container{
+    width:720px; 
+	margin:0 auto;
+}
+.top{ width:720px; height:150px; background:#666666;}
+.mid{ width:720px; height:540px; margin-top:130px;}
+.mid table{
+width:auto; height:auto;
+
+}
+.mid table tr{ line-height:160px;}
+#f1{
+border-bottom:solid 1px  #999999;
+border-left:none;
+border-right:none;
+border-top:none;
+width:580px;
+line-height:30px;
+color:#999999;
+font-size:20px;
+
+}
+#f2{
+
+width:580px;
+height:100px;
+line-height:30px;
+color:#999999;
+font-size:20px;
+margin-top:-20px;
+
+
+}
+#f3{ width:640px; height:60px; background:#74d3d5; color:#FFFFFF; font-size:32px; margin-top:68px; text-decoration:none;}
+.fx_boxIcon{ width:16px; height:16px; border:solid 2px #6abec0; margin-right:80px; margin-top:12px;  }
+.fx_boxIcon2{width:16px; height:16px; background:#FF0000;margin-right:80px; margin-top:12px;};
+
+.mid ul { margin-top:10px;}
+.mid ul li{ list-style:none; float: right; line-height:45px; margin-right:20px;}
+#f3:hover{ width:640px; height:60px; background:#6cc5c7; color:#FFFFFF; font-size:32px; margin-top:68px; text-decoration:none;}
+
+/*
+.fx_boxIcon{ width:16px; height:16px; border:solid 2px #6abec0; float:right; margin-top:8px; margin-right:80px;}
+.fx_Ican span{ float:right; margin-right:100px;line-height:40px; font-size:14px;}
+*/

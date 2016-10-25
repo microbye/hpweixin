@@ -1,0 +1,140 @@
+<extend name="Base/common" />
+<block name="body">
+  
+  <!-- 标签页导航 -->
+  <div class="span9 page_message">
+    <section id="contents">
+      <include file="Addons/_nav" />
+      <div class="tab-content"> 
+        <!-- 表单 -->
+                <form id="form" action="index.php?s=/addon/BookManage/AdviseBookManage/updateBook/id/{$book.id}" method="post" class="form-horizontal form-center">
+          
+                    <div class="form-item cf toggle-name">
+						<label class="item-label">书名                 
+							<span class="check-tips">
+							</span>
+						</label>
+						<div class="controls">
+							<input type="text" class="text" name="name" value="{$book.name}">                    
+						</div>
+					</div>                
+					
+					<div class="form-item cf toggle-ownner">
+						<label class="item-label">
+                                        种类                   
+							<span class="check-tips">
+                            </span>
+						</label>
+						<div class="controls">
+							<select name = "kind">
+							  <volist name="data"  id = "kind">
+							  <option >{$kind.kind}</option>
+							 </volist>
+							
+							 </select>                    
+						</div>
+					</div>
+
+					<div class="form-item cf toggle-writer">
+						<label class="item-label">作者                 
+							<span class="check-tips">
+							</span>
+						</label>
+						<div class="controls">
+							<input type="text" class="text" name="writer" value="{$book.writer}">                    
+						</div>
+					</div>                
+					
+					<div class="form-item cf toggle-available">
+						<label class="item-label">
+                                        状态(1可借2不可借)                   
+							<span class="check-tips">
+                            </span>
+						</label>
+						<div class="controls">
+							<select name = "available" value ="{$book.available}">
+							 
+							  <option >1</option>
+							  <option >0</option>
+							
+							
+							 </select>							
+						</div>
+					</div> 
+					<div class="form-item cf toggle-description">
+						<label class="item-label">
+                                        描述                   
+							<span class="check-tips">
+                            </span>
+						</label>
+						<div class="controls">
+							
+							 <input  type = text  height = "20"  name="description" value="{$book.description}">
+													
+						</div>
+					</div>					
+				</form>
+				</div>
+			<div class="form-item form_bh" style="text-align:center">
+            <input type="hidden" name="id" value="105">            
+			<button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+		</div>
+      
+    </section>
+  </div>
+</block>
+<block name="script">
+  <link href="__STATIC__/datetimepicker/css/datetimepicker.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
+  <php>if(C('COLOR_STYLE')=='blue_color') echo '
+    <link href="__STATIC__/datetimepicker/css/datetimepicker_blue.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
+    ';</php>
+  <link href="__STATIC__/datetimepicker/css/dropdown.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.js"></script> 
+  <script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js?v={:SITE_VERSION}" charset="UTF-8"></script> 
+  <script type="text/javascript">
+  $(function(){
+	var UploadFileExts = "{$UploadFileExts}";
+	initUploadImg();
+	if(UploadFileExts!=""){
+		initUploadFile(function(){},UploadFileExts);
+	}else{
+		initUploadFile();
+	}
+   
+   $('.time').datetimepicker({
+        format: 'yyyy-mm-dd hh:ii',
+        language:"zh-CN",
+        minView:0,
+        autoclose:true
+    });
+    $('.date').datetimepicker({
+        format: 'yyyy-mm-dd',
+        language:"zh-CN",
+        minView:2,
+        autoclose:true
+    });	
+    showTab();
+	
+	$('.toggle-data').each(function(){
+		var data = $(this).attr('toggle-data');
+		if(data=='') return true;		
+		
+	     if($(this).is(":selected") || $(this).is(":checked")){
+			 change_event(this)
+		 }
+	});
+	
+	$('.toggle-data').bind("click",function(){ change_event(this) });
+	$('select').change(function(){
+		$('.toggle-data').each(function(){
+			var data = $(this).attr('toggle-data');
+			if(data=='') return true;		
+			
+			 if($(this).is(":selected") || $(this).is(":checked")){
+				 change_event(this)
+			 }
+		});
+	});
+});
+</script> 
+</block>

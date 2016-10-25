@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<include file="Public/mobile_head"/>
+<!-- saved from url=(0148)http://hpweixin.microbye.com/index.php?s=/addon/UserCenter/Wap/userCenter/token/gh_b5826b7a409f&&code=011t0PSh0ccrEB1plQTh0TNLSh0t0PSX&state=weiphp# -->
+<html class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <title>慧享书香</title>
+    
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" type="text/css"  href="{:ADDON_PUBLIC_PATH}/css/borrowRecord/myStyle.css">
+    <script type="text/javascript">
+		//静态变量
+		var SITE_URL = "http://hpweixin.microbye.com";
+		var IMG_PATH = "/Public/Home/images";
+		var STATIC_PATH = "/Public/static";
+		var WX_APPID = "wxcc4fa59b8b59436d";
+		var	WXJS_TIMESTAMP='1476668102'; 
+		var NONCESTR= 'GBuNFQ6q4H3Vg7ex'; 
+		var SIGNATURE= '6d33b15df1a4c4e81a1a6b987df8edd8e4752bab';
+	</script>
+    <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/jquery-2.0.3.min.js.download"></script>
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/jweixin-1.0.0.js.download"></script>
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/minify.php"></script>
+	<link href="{:ADDON_PUBLIC_PATH}/userCenter.css" rel="stylesheet" type="text/css"></head>
+
+
+<body>
+<div class="container">
+  <div class="userHead">
+    <div class="userInfo">
+      <div class="head"><img src="{$info.headimgurl}"></div>
+      <div class="info">
+        <p class="name"><strong>{$info.nickname}</strong></p>
+        <p class="attr"><span>积分:</span>{$info.score|intval}</p>
+        <p class="attr"><span>经历值:</span> {$info.experience|intval}</p>
+      </div>
+    </div>
+</div>
+  
+      <h3>&nbsp;荐书记录</h3>
+	<div class="fx_cont">
+   
+     <ul>
+	<volist name="list" id="data">
+	   <li>
+	   <div class="user_box"> 
+	   <div class="fx_bookName">
+	   <span>{$data.name}</span>
+	   <div class="fx_time">
+	
+	   <img src="慧享书香_files/time.png" height="16" width="16"/>
+	   <span>{$data.create_time}</span>
+	   </div>
+	   </div>
+	   <div class="fx_author"><span>作者：{$data.writer}</span></div>
+	   <div class="fx_ownner"><span>分类： {$data.kind}</span></div>
+	   	  <!--<div class="fx_ownner"><span><a>取消推荐</a></span></div>
+ <div class="fx_backMessage"><span>回复消息：<if condition="$data.reply_info eq null">您没有没有回复<else/>{$data.reply_info}</if></span></div>-->
+	   </div>
+	   </li>
+	</volist>
+	 </ul>
+    
+	</div>
+<!-- Wap页面脚部 -->
+<div style="height:0; visibility:hidden; overflow:hidden;">
+<script>$.post("http://hpweixin.microbye.com/log.php?_addons=UserCenter&_controller=Wap&_action=userCenter&m=Home&token=gh_b5826b7a409f&code=011t0PSh0ccrEB1plQTh0TNLSh0t0PSX&state=weiphp&publicid=1&c=Addons&a=execute&uid=0");</script></div>
+
+</div></body></html>

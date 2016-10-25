@@ -1,0 +1,51 @@
+/* CSS Document */
+.body{}
+.check-tips{ line-height:14px; font-size:12px;}
+.item_intro{ background:#FFC; color:#f90; padding:5px; border-radius:5px; font-size:12px; margin-bottom:10px;}
+.joined{ background:RGBA(0,0,0,.6); color:#fff; padding:3px 5px; font-size:12px; position:absolute; top:10px; right:10px; z-index:1000; border-radius:5px;}
+.forms_success h6{ font-size:16px; color:#09C; text-align:center; line-height:40px;}
+#qrCode{ text-align:center;}
+.qr_tips{ text-align:center; line-height:16px; padding:5px 0; color:#888; font-size:12px;}
+.user_info{ border:1px solid #eee; background:#fff; margin:15px; border-radius:5px; padding:10px;}
+.user_info .title{ font-weight:bold; border-bottom:1px solid #ddd; line-height:30px;}
+.user_info .info{ margin:5px 0; font-size:13px;}
+.back_btn{ display:inline; padding:5px 30px;}
+.pay_tips{  background:#FFC; padding:10px; margin:15px; border-radius:5px;}
+.controls img{ float:left;}
+
+
+p#back-to-top{
+    position:fixed;
+    display:none;
+    bottom:100px;
+    right:80px;
+}
+p#back-to-top a{
+    text-align:center;
+    text-decoration:none;
+    color:#d1d1d1;
+    display:block;
+    width:64px;
+    /*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
+    -moz-transition:color 1s;
+    -webkit-transition:color 1s;
+    -o-transition:color 1s;
+}
+p#back-to-top a:hover{
+    color:#979797;
+}
+p#back-to-top a span{
+    background:transparent url({:ADDON_PUBLIC_PATH}/css/booklist/img/goToTop.png?1202) no-repeat -25px -290px;
+    border-radius:6px;
+    display:block;
+    height:64px;
+    width:56px;
+    margin-bottom:5px;
+    /*使用CSS3中的transition属性给<span>标签背景颜色添加渐变效果*/
+    -moz-transition:background 1s;
+    -webkit-transition:background 1s;
+    -o-transition:background 1s;
+}
+#back-to-top a:hover span{
+    background:transparent url({:ADDON_PUBLIC_PATH}/css/booklist/img/goToTop.png?1202) no-repeat -25px -290px;
+}

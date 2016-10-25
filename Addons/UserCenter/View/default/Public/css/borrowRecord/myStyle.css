@@ -1,0 +1,12 @@
+/* CSS Document */
+.user_box ul{ height:auto;}
+.user_box ul li{ width:100%; height::200px; background:#FFFFFF; border-bottom:solid 5px #EFEFEF;}
+.fx_bookName{ border-bottom:solid 1px #E1E1E1; }
+.fx_bookName span{color:#61babc; padding-left:20px; padding-top:10px; height:30px; line-height:40px;}
+.fx_time{ float:right;}
+.fx_time img{ padding-top:12px; margin-left:-2px; position:absolute;}
+.fx_time span{ color:#D4D4D4; margin-right:10px; font-size:12px;}
+.fx_author span{padding-left:20px; padding-top:10px; height:30px; line-height:35px;}
+.fx_ownner span{padding-left:20px; padding-top:10px; height:30px; line-height:35px;}
+.fx_backMessage span{padding-left:20px; padding-top:10px; height:30px; line-height:35px;}
+

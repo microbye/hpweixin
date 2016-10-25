@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://hpweixin.microbye.com/index.php?s=/addon/WeiSite/WeiSite/booklist -->
+<html class=" -webkit- -webkit- -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <title>慧享书香</title>
+    
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="{:ADDON_PUBLIC_PATH}/css/noanswer/mobile_module.css" media="all">
+    <script type="text/javascript">
+		//静态变量
+		var SITE_URL = "http://hpweixin.microbye.com";
+		var IMG_PATH = "/Public/Home/images";
+		var STATIC_PATH = "/Public/static";
+		var WX_APPID = "wxcc4fa59b8b59436d";
+		var	WXJS_TIMESTAMP='1474612715'; 
+		var NONCESTR= 'a9Jr1ybp98HDDS7h'; 
+		var SIGNATURE= '5c25d13537e623b960fb60a6e58e3d1b0fa4d268';
+	</script>
+    <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/jquery-2.0.3.min.js.download"></script>
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/jweixin-1.0.0.js.download"></script>
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/minify.php"></script>
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/detail.css" rel="stylesheet" type="text/css">
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/booklist.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/jquery-3.1.0.js.download"></script>
+	<script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/comment.js.download"></script>
+	
+	
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/style.css" rel="stylesheet" type="text/css">
+    <link href="{:ADDON_PUBLIC_PATH}/css/noanswer/css.css" rel="stylesheet" type="text/css">
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/myStyle.css" rel="stylesheet" type="text/css">
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/datetimepicker.css" rel="stylesheet" type="text/css">
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/dropdown.css" rel="stylesheet" type="text/css">
+	<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/booklist/style.css" rel="stylesheet" type="text/css">
+	<!--<script type="text/javascript">
+		//静态变量
+		var SITE_URL = "http://hpweixin.microbye.com";
+		var IMG_PATH = "/Public/Home/images";
+		var STATIC_PATH = "/Public/static";
+		var WX_APPID = "wxcc4fa59b8b59436d";
+		var	WXJS_TIMESTAMP='1474527452'; 
+		var NONCESTR= 'I7wgsOQmj03DxrFO'; 
+		var SIGNATURE= 'bc5192305ade6fa4a903b58e06ce09c45caf44d1';
+	</script>-->
+
+	<title>首页推荐</title><script type="text/javascript">
+function ask(ownner,name,book_id,userid){
+	$.Dialog.loading();
+    $.ajax({
+	   url:"index.php?s=/addon/WeiSite/SendMessage/ask/token/gh_b5826b7a409f",
+	   type:'post',
+	   data:{
+		ownner:ownner,
+		name:name,
+		book_id:book_id,
+		userid:userid		
+		},
+	   dataType:'json',
+	   success:function(json){
+		  
+			if(json.status==1){
+			   	//	alert(json.info);
+			   		$.Dialog.success(json.info);
+					
+			   }else{
+				   	$.Dialog.fail(json.info);
+					//alert('3');
+			}
+   		},
+		error:function(){
+				$.Dialog.close();
+			 //$.Dialog.fail();
+			}
+	   });
+	
+}
+</script></head>
+	
+	
+
+	
+
+
+<!--必要样式-->
+<body id="weisite">
+	<div class="container">
+		<div class="detail">
+	<div class="top">
+		<form id="microbye_form1" action="index.php?s=/addon/WeiSite/BookInfo/search" method="post">
+	
+		    <div class="search">
+				<div class="search_box"><input type="text" id="searchkeyword" name = "key" placeholder="书名/作者" value="{$key}">
+				<a onClick = "document.getElementById('microbye_form1').submit();" id="btnsearch" ><span class="fx_searchspan"  >搜索</span></a>
+				</div>
+				<div class="search_list" benlai-id="searchList" style="display:none;"></div>
+            </div>
+		</form>
+		<!--热度+分类+来源 开始 -->
+		<div class="fx_rfl">
+		   <ul>
+			<input type = hidden id = "microbye_key" name = "key" value = "{$key}">
+			
+			
+		   </ul>
+		</div>
+		<!--热度+分类+来源 结束 -->
+	    
+	</div>
+	<div class="fx_havingline"></div>
+	<div class="mid">	
+       <div class="noSearch_bg"><img src="{:ADDON_PUBLIC_PATH}/css/noanswer/noSearch.jpg"></div>	
+	   <div class="noSearch_mes" id = "borrow"><span >点击请求图书馆添加？<span></div>
+				
+	</div>
+	<div>
+	<br>	
+	<!--<div>  <span class="current">1</span><a class="num" href="http://hpweixin.microbye.com/index.php?s=/addon/WeiSite/WeiSite/booklist/m/Home/p/2.html">2</a> <a class="next" href="http://hpweixin.microbye.com/index.php?s=/addon/WeiSite/WeiSite/booklist/m/Home/p/2.html">下一页</a>  <br><br><br><p class="rows">共<b>7</b>条&nbsp;每页<b>6</b>条&nbsp;第<b>1</b>页/共<b>2</b>页</p></div>	</div>
+		
+		
+	</div>
+		-->
+
+
+<link href="{:ADDON_PUBLIC_PATH}/css/noanswer/datetimepicker(1).css" rel="stylesheet" type="text/css">
+
+  <link href="{:ADDON_PUBLIC_PATH}/css/noanswer/datetimepicker_blue.css" rel="stylesheet" type="text/css">
+  <link href="{:ADDON_PUBLIC_PATH}/css/noanswer/dropdown(1).css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/bootstrap-datetimepicker.min.js.download"></script> 
+  <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/css/noanswer/bootstrap-datetimepicker.zh-CN.js.download" charset="UTF-8"></script>
+
+  
+ <script type="text/javascript">
+$('#borrow').click(function(){
+   window.location.href="index.php?s=/addon/WeiSite/BookInfo/addBook/token/gh_b5826b7a409f";
+});
+
+$(function(){
+       $('.time').datetimepicker({
+        format: 'yyyy-mm-dd hh:ii',
+        language:"zh-CN",
+        minView:0,
+        autoclose:true
+    });
+
+});
+</script> 
+
+<!-- 底部导航 -->
+<!-- 统计代码 -->
+<p class="hide bdtongji">
+<script>$.post("http://hpweixin.microbye.com/log.php?_addons=WeiSite&_controller=WeiSite&_action=booklist&m=Home&publicid=1&c=Addons&a=execute&uid=1");</script></p>
+</div></div></body></html>
