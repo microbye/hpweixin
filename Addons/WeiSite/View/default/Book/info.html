@@ -164,7 +164,7 @@ function changeImage(){
 									   <td>
 									   <if condition="($book.nickname neq '三楼阅览室') and $book.available eq 1"><font>&nbsp;<a onclick=ask("{$book.ownner}","{$book.name}","{$book.id}","{$userid}")>向他借阅？</a></font>
 									   <elseif condition = "$book.nickname eq '三楼阅览室'" /><font><p>不支持在线借阅</p></font>
-									   <else /><font><p>暂时不可借阅 &nbsp;&nbsp;<a href ='index.php?s=/addon/WeiSite/BookInfo/addBook/token/gh_b5826b7a409f'>请求增加该书籍？</a></p></font>
+									   <else /><font><p>暂时不可借阅 &nbsp;&nbsp;<a href ='index.php?s=/addon/WeiSite/BookInfo/addBook/name/{$book.name}/writer/{$book.writer}/kind/{$book.kind}/token/gh_b5826b7a409f'>请求增加该书籍？</a></p></font>
 									   </if>
 									   </td>
 									 </tr>

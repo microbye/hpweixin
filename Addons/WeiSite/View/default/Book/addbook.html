@@ -36,7 +36,7 @@
     <div id="container" class="container body" style="min-height: 748px;">
 		<div class="top_relative">
 		<img src="{:ADDON_PUBLIC_PATH}/css/form/advise_title.jpg">            
-		<p style="word-wrap:break-word;">请求图书馆增加想看的书籍！</p>
+		<p style="word-wrap:break-word;">请求阅览室增加想看的书籍！</p>
 		</div>
                  	
        <!-- 
@@ -57,7 +57,7 @@
 						 <div class="controls">	 
 						 
 						     <img src="{:ADDON_PUBLIC_PATH}/css/form/1_05.gif">
-							 <input  type="text" class="text input-large" name="book" placeholder="书名" value=""> 	
+							 <input  type="text" class="text input-large" name="book" placeholder="书名" value="{$book.name}"> 	
 												  
 						 </div>
 						 
@@ -69,7 +69,7 @@
 						 <div class="controls">  
 						    
 						     <img src="{:ADDON_PUBLIC_PATH}/css/form/1_08.gif">
-							 <input type="text" class="text input-large" name="writer" placeholder="作者" value="">
+							 <input type="text" class="text input-large" name="writer" placeholder="作者" value="{$book.writer}">
 						              
 						 </div>
 					</div>                
@@ -79,8 +79,11 @@
 						 <div class="controls">
 						      <img src="{:ADDON_PUBLIC_PATH}/css/form/1_10.gif">
 							 <select name = "kind">
-							  <volist name="data"  id = "kind">
-							  <option >{$kind.kind}</option>
+							 
+							  <volist name="data"  id = "k">
+							  <if condition = '$k.id eq $bookid'><option selected = "selected">{$k.kind}</option>
+							  <else /><option>{$k.kind}</option>
+							 </if>
 							 </volist>
 							 </select>
 						 </div>
@@ -90,7 +93,7 @@
 						
 						 <div class="controls">
 						   <img src="{:ADDON_PUBLIC_PATH}/css/form/1_12.gif">
-							<textarea name="description" placeholder = "如果你希望图书馆增加此书，请详细描述此书"></textarea>
+							<textarea name="description" placeholder = "如果你希望阅览室增加此书，请详细描述此书"></textarea>
 						 </div>
 					</div>
 				
@@ -123,7 +126,7 @@
   
  <script type="text/javascript">
 $('#submit').click(function(){
-   var mark = confirm("确认推荐？");
+   var mark = confirm("确认增加？");
   /* x=$('#form').serializeArray();
 	$.each(x, function(i, field){
 		

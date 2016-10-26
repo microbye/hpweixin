@@ -836,7 +836,15 @@ class BookInfoController extends BaseController {
 	
 	//用户请求增加一本书籍
 	function addBook(){
+		//首先根据get的请求是否有参数
+		$book['name'] = $_GET['name'];
+		$book['writer'] = $_GET['writer'];
+		$book['kind'] = $_GET['kind'];
+		//$bookid = 1;
+		$bookid = M('kind_book')->where("kind = '".$book['kind']."'")->getField('id');
 		$data = M("kind_book")->select();
+		$this->assign("book",$book);
+		$this->assign('bookid',$bookid);
 		$this->assign("data",$data);
 		$this->display( ONETHINK_ADDON_PATH . 'WeiSite/View/default/Book/' . $this->config ['template_booklist'] . '/addbook.html' );
 	}
@@ -891,7 +899,7 @@ class BookInfoController extends BaseController {
 			$book["kind"] = $data["kind"];
 			if(M("addbook")->where($book)->find()!=null){
 				$data['status'] = 3;
-				$data['info'] = "已经推荐过了哈,请不要重复提交";
+				$data['info'] = "已经增加了哈,请不要重复提交";
 				$this->ajaxReturn($data,'JSON');
 			}
 			$book["create_time"] = time();
